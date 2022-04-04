@@ -2,13 +2,17 @@ h1
 {
     text-align: center;
     font-family: Algerian;
+    color: #47d66d;
+    font-weight: bold;
+    font-size: 4em;
+
 }
 
 .tableau
 {
     display:flex;
     flex-direction:row;
-    background-color: red;
+    background-color: white;
     height:50em;
     overflow-y: hidden;
 }
@@ -17,17 +21,28 @@ h1
 {
     width: 100%;
     text-align:right;
-    border-left: 1px solid yellow;
-    transition-duration: 1s;
+    border-left: 1px solid transparent;
+    transition-duration: 0.75s;
 }
 
 .tableau div:hover
 {
-    transition-duration: 1s;
+    transition-duration: 0.75s;
     background-color: #47d66d;
 }
 
-
+.footer-tableau {
+    background-color: #47d66d;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5%;
+}
+.footer-tableau div{
+    text-align: center;
+    width: 100%;
+}
 /*
 @keyframes zoom {
     0%
