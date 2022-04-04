@@ -1,16 +1,41 @@
 h1
 {
     text-align: center;
+    font-family: Algerian;
 }
 
 .tableau
 {
     display:flex;
     flex-direction:row;
-    
+    background-color: red;
+    height:50em;
+    overflow-y: hidden;
 }
 
-.tableau p
+.tableau div
 {
     width: 100%;
+    text-align:right;
+    border-left: 1px solid yellow;
+    transition-duration: 1s;
 }
+
+.tableau div:hover
+{
+    transition-duration: 1s;
+    background-color: #47d66d;
+}
+
+
+/*
+@keyframes zoom {
+    0%
+    {
+        background-color: red;
+    }
+    100%
+    {
+        background-color: #47d66d;
+    }
+}*/
