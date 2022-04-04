@@ -1,0 +1,16 @@
+h1
+{
+    text-align: center;
+}
+
+.tableau
+{
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.tableau p
+{
+    width: 100%;
+}
